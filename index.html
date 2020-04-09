@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    
+<head>
+    <title>Homepage of Jiangming Yao</title>
+
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+    <style>
+            * {
+                box-sizing: border-box;
+                }
+
+    /* Style the body */
+        body {
+                font-family: Arial, Helvetica, sans-serif;
+                    margin: 0;
+            }
+
+    /* Header/logo Title */
+        .header {
+            padding: 10px;
+            text-align: center;
+            background: #1abc9c;
+            color: white;
+            }
+
+    /* Increase the font size of the heading */
+        .header h1 {
+            font-size: 40px;
+            }
+
+    /* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+    .navbar {
+        overflow: hidden;
+        background-color: #333;
+        position: sticky;
+        position: -webkit-sticky;
+        top: 0;
+        }
+
+    /* Style the navigation bar links */
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+
+        /* Right-aligned link */
+        .navbar a.right {
+            float: right;
+        }
+
+        /* Change color on hover */
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        /* Active/current link */
+        .navbar a.active {
+            background-color: #666;
+            color: white;
+        }
+
+        /* Column container */
+        .row {
+            display: -ms-flexbox; /* IE10 */
+            display: flex;
+            -ms-flex-wrap: wrap; /* IE10 */
+            flex-wrap: wrap;
+        }
+
+        /* Create two unequal columns that sits next to each other */
+        /* Sidebar/left column */
+        .side {
+            -ms-flex: 10%; /* IE10 */
+            flex: 10%;
+            background-color: #f1f1f1;
+            padding: 20px;
+        }
+
+        /* Main column */
+        .main {
+            -ms-flex: 70%; /* IE10 */
+            flex: 70%;
+            background-color: white;
+            padding: 20px;
+        }
+
+        /* Fake image, just for this example */
+        .fakeimg {
+            background-color: #aaa;
+            width: 100%;
+            padding: 20px;
+        }
+
+        /* Footer */
+        .footer {
+            padding: 20px;
+            text-align: center;
+            background: #ddd;
+        }
+
+        /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 700px) {
+            .row {
+                flex-direction: column;
+            }
+        }
+
+    
+    .container{
+        width:100%;
+        height:300px;
+        overflow:hidden;
+    }
+    .img {
+        width:100%;
+        );
+        
+        /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+        @media screen and (max-width: 400px) {
+            .navbar a {
+                float: none;
+                width: 100%;
+            }
+        }
+</style>
+</head>
+
+
+<body>
+    
+    <div class="container">
+        <img src="ocean2.jpg" class="img" />
+    </div>
+<!--        <div class="header">
+                    <h1>Jiangming Yao</h1>
+                    <p> Research Associate,  <br>
+                    FRIB/NSCL, Michigan State University, East Lansing, USA <br>
+                    E-mail: yaoj [at] frib.msu.edu <br> </p>
+        </div>
+ -->
+        
+
+
+<!-- Navigation -->
+
+<nav class="navbar">
+    <a href="index.html" class="w3-button w3-bar-item">Home |</a>
+    <a href="np.html" class="w3-button w3-bar-item">Nuclear Physics |</a>
+    <a href="math.html" class="w3-button w3-bar-item">Mathematics|</a>
+    <a href="ml.html" class="w3-button w3-bar-item"> Machine Learning |</a>
+    <a href="stats.html" class="w3-button w3-bar-item">Statistics |</a>
+    <a href="code.html" class="w3-button w3-bar-item">Coding |</a>
+    <a href="me.html" class="w3-button w3-bar-item">About Me </a>
+</nav>
+
+<div class="row">
+    <div class="main">
+        <h2> This is the location of my office! </h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2931.0053270507037!2d-84.47601668453211!3d42.724777979164095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8822c284150327a1%3A0x12c898b1142d50c8!2sFacility+for+Rare+Isotope+Beams%2C+East+Lansing%2C+MI+48824!5e0!3m2!1sen!2sus!4v1552073395727" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+    
+    </div>
+</div>
+
+<a href="https://apps.frib.msu.edu/Citrix/FRIBWeb/">apps at MSU</a>
+</p>
+
+<a href="https://enterprise.nscl.msu.edu/homepage/auth/login">Enterprise at MSU</a>
+</p>
+<a href="https://publicapps.frib.msu.edu/emailRedirect/enterprise.nscl.msu.edu">PTA at MSU</a>
+</p>
+<a href="http://ctlr.msu.edu/cotravel/">Concur at MSU</a>
+</p>
+</p>
+</p>
+</p>
+
+<!--
+ <div class="footer">
+ <h2>Footer</h2>
+ </div>
+ -->
+
+</body></html>
